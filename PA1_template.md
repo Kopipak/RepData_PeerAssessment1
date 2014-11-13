@@ -85,6 +85,7 @@ The interval, contains the maximum number of steps is:
 
 3. Cerate a new dataset that is equal to the original dataset but with the missing data filled in
 
+Using average number of steps taken value from "data3", merge it with original "data" and fill the missing data.
 ```r
       datajoin <- join(x=data, y=data3, by = "interval")
       datajoin[which(is.na(data)),1] <- datajoin[which(is.na(data)),4]
