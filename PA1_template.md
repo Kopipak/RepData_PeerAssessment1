@@ -1,6 +1,6 @@
 ---
-title: "Reproducible Research Peer Assessments 1"
-output: html_document
+# Reproducible Research Peer Assessments 1
+
 ---
 
 
